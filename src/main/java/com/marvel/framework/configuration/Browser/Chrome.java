@@ -18,6 +18,7 @@ public Capabilities getChromeCapabilities() {
 }
 
 
+@SuppressWarnings("deprecation")
 public WebDriver getChromeDriver(Capabilities cap)
 {
 	System.setProperty("webdriver.chrome.driver", "C:\\Users\\Red Hat\\Desktop\\Automation\\chromedriver.exe");
